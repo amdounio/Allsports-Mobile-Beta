@@ -1,0 +1,21 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": [
+      "@angular/localize"
+    ]
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts",
+    "plugins/my-image-gallery-saver/src/index.ts"
+
+  ],
+  "include": [
+    "src/**/*.d.ts",
+    "plugins/my-image-gallery-saver/src/index.ts"
+
+  ]
+}
